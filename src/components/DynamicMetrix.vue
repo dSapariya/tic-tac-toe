@@ -266,7 +266,7 @@ export default {
   margin-top: 20px;
 }
 
-
+  
 .board-container {
   display: flex;
   flex-direction: column;

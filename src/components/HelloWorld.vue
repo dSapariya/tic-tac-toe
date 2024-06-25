@@ -1,6 +1,6 @@
 <template>
   <h2>Tic-Tac-Toe</h2>
-  <h3 v-if="!gameStage">Current Planyer : {{ currentPlayer ? "X" : "0" }}</h3>
+  <h3 v-if="!gameStage">Current Player : {{ currentPlayer ? "X" : "0" }}</h3>
   <h3 v-else>Player {{ winner }} Won the Match</h3>
   <h3 v-if="count > matrixSize * matrixSize - 1 && !gameStage" style="color: red">
     No one is Won
